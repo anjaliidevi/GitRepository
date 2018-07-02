@@ -1,0 +1,26 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="OrangHRM" >
+<test name="Login">
+<classes>
+<class name="TestScripts.TC_1VerifyOrangeHRM"/>
+<class name="TestScripts.TC_2AddEmployee"/>
+<class name="TestScripts.TC_3EditEmploee"/>
+<class name="TestScripts.TC_4DeleteEmpoloyee"/>
+<class name="TestScripts.TC_5AddLocation"/>
+<class name="TestScripts.TC_6EditLocation"/>
+<class name="TestScripts.TC_7DeleteLocation"/>
+<class name="TestScripts.TC_8DeleteMultipleLocation"/>
+<class name="TestScripts.TC_9AddJobTitle"/>
+<class name="TestScripts.TC_10EditJobTitle"/>
+<class name="TestScripts.TC_11DeleteJobTitle"/>
+<class name="TestScripts.TC_12AddJobSpecificaton"/>
+<class name="TestScripts.TC_13EditJobSpecification"/>
+<class name="TestScripts.TC_14DeleteJobSpecification"/>
+<class name="TestScripts.TC_15AddQualification"/>
+<class name="TestScripts.TC_16EditQualification"/>
+<class name="TestScripts.TC_17DeleteQualification"/>
+
+</classes>
+</test>
+</suite>

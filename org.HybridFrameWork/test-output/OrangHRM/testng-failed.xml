@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [OrangHRM]">
+  <test thread-count="5" name="Login(failed)">
+    <classes>
+      <class name="TestScripts.TC_5AddLocation">
+        <methods>
+          <include name="ALocation"/>
+        </methods>
+      </class> <!-- TestScripts.TC_5AddLocation -->
+      <class name="TestScripts.TC_17DeleteQualification">
+        <methods>
+          <include name="DeleteEduction"/>
+        </methods>
+      </class> <!-- TestScripts.TC_17DeleteQualification -->
+      <class name="TestScripts.TC_13EditJobSpecification">
+        <methods>
+          <include name="EditJobSpecification"/>
+        </methods>
+      </class> <!-- TestScripts.TC_13EditJobSpecification -->
+      <class name="TestScripts.TC_10EditJobTitle">
+        <methods>
+          <include name="EditjobTitle"/>
+        </methods>
+      </class> <!-- TestScripts.TC_10EditJobTitle -->
+      <class name="TestScripts.TC_12AddJobSpecificaton">
+        <methods>
+          <include name="AddjobSpecification"/>
+        </methods>
+      </class> <!-- TestScripts.TC_12AddJobSpecificaton -->
+      <class name="TestScripts.TC_4DeleteEmpoloyee">
+        <methods>
+          <include name="DeleteEmployee"/>
+        </methods>
+      </class> <!-- TestScripts.TC_4DeleteEmpoloyee -->
+      <class name="TestScripts.TC_6EditLocation">
+        <methods>
+          <include name="ALocation"/>
+        </methods>
+      </class> <!-- TestScripts.TC_6EditLocation -->
+      <class name="TestScripts.TC_11DeleteJobTitle">
+        <methods>
+          <include name="DeleteJobTitle"/>
+        </methods>
+      </class> <!-- TestScripts.TC_11DeleteJobTitle -->
+      <class name="TestScripts.TC_8DeleteMultipleLocation">
+        <methods>
+          <include name="DelteMultipleLocations"/>
+        </methods>
+      </class> <!-- TestScripts.TC_8DeleteMultipleLocation -->
+      <class name="TestScripts.TC_9AddJobTitle">
+        <methods>
+          <include name="AddJobTitle"/>
+        </methods>
+      </class> <!-- TestScripts.TC_9AddJobTitle -->
+      <class name="TestScripts.TC_14DeleteJobSpecification">
+        <methods>
+          <include name="DeleteJobSpecification"/>
+        </methods>
+      </class> <!-- TestScripts.TC_14DeleteJobSpecification -->
+      <class name="TestScripts.TC_3EditEmploee">
+        <methods>
+          <include name="EditEmployee"/>
+        </methods>
+      </class> <!-- TestScripts.TC_3EditEmploee -->
+      <class name="TestScripts.TC_16EditQualification">
+        <methods>
+          <include name="EditQualification"/>
+        </methods>
+      </class> <!-- TestScripts.TC_16EditQualification -->
+      <class name="TestScripts.TC_15AddQualification">
+        <methods>
+          <include name="AddQualification"/>
+        </methods>
+      </class> <!-- TestScripts.TC_15AddQualification -->
+      <class name="TestScripts.TC_7DeleteLocation">
+        <methods>
+          <include name="DeleteLocation"/>
+        </methods>
+      </class> <!-- TestScripts.TC_7DeleteLocation -->
+    </classes>
+  </test> <!-- Login(failed) -->
+</suite> <!-- Failed suite [OrangHRM] -->
