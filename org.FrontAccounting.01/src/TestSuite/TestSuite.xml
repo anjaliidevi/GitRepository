@@ -1,0 +1,6 @@
+<suite name="FrontAccount">
+<test name="PIM">
+<classes>
+<class name="TestScripts.TC1"/>
+</classes>
+</test></suite>
